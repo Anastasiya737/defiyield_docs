@@ -9,9 +9,9 @@ sections:
   label: Dashboard
   create: documents
   match: "**/*"
-  new_doc_ext: html
+  new_doc_ext: md
 - type: document
-  path: index.html
+  path: index
   label: Homepage
 upload_dir: ".vuepress/public"
 public_path: ".vuepress/public"
